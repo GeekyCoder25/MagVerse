@@ -1,0 +1,332 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  text-decoration: none;
+}
+body {
+  background: linear-gradient(to top right, #110124, #160041, #0c0241);
+  height: 100%;
+  min-height: 100vh;
+  max-height: 200vh;
+  width: 85vw;
+  margin: 0 auto;
+  color: #fff;
+}
+#links a {
+  display: inline-block;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1.88rem 0;
+}
+.navbar h1 {
+  font-size: 1.88rem;
+  display: inline-block;
+}
+.navbar #links {
+  margin-left: auto;
+}
+.navbar #search {
+  display: none;
+  width: 100%;
+  height: 40px;
+  margin-left: auto;
+  margin-top: 70px;
+  margin-right: 5px;
+  border-radius: 8px;
+  border: #aa0ff9;
+}
+.navbar #links a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 3vw;
+}
+#links a:hover {
+  transform: scale(2);
+}
+#links a.active{
+  background-color: #ec7d09;
+  padding: 20px 50px;
+  border-radius: 10px;
+}
+#menu {
+  width: 30px;
+  margin-left: 10px;
+}
+.navbar button {
+  background: linear-gradient(to right, #ec7d09 5%, #aa0ff9 70%);
+  width: 5.63rem;
+  height: 2.19rem;
+  color: #fff;
+  font-weight: 650;
+  margin-left: 10%;
+  border-radius: 0.5rem;
+  border: #0c0241;
+}
+button {
+  cursor: pointer;
+}
+.row:after {
+  content: " ";
+  display: table;
+  clear: both;
+  margin-bottom: 2vh;
+}
+#column1 {
+  float: left;
+  width: 30vw;
+}
+#column1 .text {
+  width: 70%;
+}
+article {
+  padding-top: 5%;
+}
+article h1 {
+  font-size: 4.38rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+article h2 {
+  text-transform: uppercase;
+  padding: 1.25rem 0;
+}
+article button {
+  background: linear-gradient(to right, #ec7d09, #aa0ff9);
+  text-transform: uppercase;
+  width: 11.54rem;
+  height: 4.13rem;
+  border-radius: 8px;
+  border: #0c0241;
+  color: #fff;
+  font-weight: 650;
+  margin: 2vw 0;
+  display: block;
+  animation: color 0.5s linear infinite;
+}
+@keyframes color {
+    0% {
+      background: linear-gradient(to right, #ec7d09, #aa0ff9);
+    }
+    25% {
+      tbackground: linear-gradient(to left, #ec7d09, #aa0ff9);
+    }
+    50% {
+      background: linear-gradient(to bottom, #ec7d09, #aa0ff9);
+    }
+    75% {
+      background: linear-gradient(to top, #ec7d09, #aa0ff9);
+    }
+    100%{
+      background: linear-gradient(to right, #ec7d09, #aa0ff9);
+    }
+  }
+#column2 {
+  /* background-color: red; */
+  margin: 6vh 0 0 10%;
+  height: 40%;
+  width: 28vw;
+  float: left;
+}
+#column2 img {
+  width: 100%;
+}
+#column3 {
+  float: left;
+  width: 1%;
+  margin: 20% 0 0 0;
+}
+#column3 button {
+  background-color: rgba(77, 61, 108, 255);
+  width: 11.25rem;
+  padding: 0.75rem;
+  color: #fff;
+  border-radius: 10px;
+  text-align: left;
+  border-color: #ec7d09 #941ce9 #ec7d09 #941ce9;
+  border-style: solid;
+  border-width: 0.2px;
+  animation: border 0.5s linear infinite;
+}
+@keyframes border {
+    0% {
+      border-color: #ec7d09 #941ce9 #ec7d09 #941ce9;
+    }
+    50% {
+      border-color:  #941ce9 #ec7d09 #941ce9 #ec7d09;
+    }
+    100%{
+      border-color: #ec7d09 #941ce9 #ec7d09 #941ce9;
+    }
+  }
+.baseone {
+  float: left;
+}
+div h3 {
+  font-size: 2.5vw;
+}
+.basetwo {
+  border-left: solid 2px #fff;
+  float: left;
+  height: 4rem;
+  margin: auto 2vw;
+}
+footer {
+  /* position: absolute; */
+  /* background-color: red; */
+  display: block;
+  max-width: 85vw;
+  max-height: 100px;
+}
+#fone {
+  background-color: #5451fa;
+  border-top-left-radius: 10px;
+  padding-bottom: 3.5%;
+}
+#ftwo {
+  background-color: #ee800c;
+  padding-bottom: 4%;
+}
+#fthree {
+  background-color: #b106f8;
+  border-top-right-radius: 10px;
+  padding-bottom: 4%;
+}
+.foot {
+  word-wrap: break-word;
+  display: flex;
+  width: 33.33%;
+  float: left;
+  min-height: 20vw;
+}
+footer div div {
+  margin: 15% 5% 0 10%;
+}
+footer div div img {
+  width: 50px;
+}
+footer div div span {
+  font-size: 1.88rem;
+  font-weight: 750;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar {
+    position: relative;
+  }
+  .navbar h1 {
+    position: absolute;
+    top: 25px;
+  }
+  #links {
+    display: none;
+    margin-left: 0;
+  }
+  #links a {
+    display: block;
+    margin-top: 40px;
+    margin-right: 80px;
+    align-items: unset;
+  }
+  .bar {
+    position: absolute;
+    top: 25px;
+    right: 0;
+  }
+  #button {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    float: right;
+  }
+  #column1 {
+    float: unset;
+    width: 100%;
+  }
+  #column1 h1,
+  #column1 h2 {
+    text-align: center;
+  }
+  #column1 .text {
+    margin: 0 auto;
+  }
+  article button {
+    font-size: 25px;
+    width: 40vw;
+    height: 6.13rem;
+    margin: 50px auto;
+    border-radius: 15px;
+  }
+  .hidden-img {
+    margin: auto;
+    width: 100%;
+  }
+  #column2 {
+    display: none;
+    position: fixed;
+  }
+  #base {
+    margin: 0 0 0 25vw;
+  }
+  .baseone h3,
+  .basethree h3 {
+    margin: 0;
+    font-size: 40px;
+  }
+  .baseone p,
+  .basethree p {
+    display: inline-block;
+  }
+  #column3 {
+    flex: none;
+    margin: 50px 26vw;
+    animation: scale 5s linear infinite;
+  }
+  #column3:hover {
+    animation: none;
+  }
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    10% {
+      transform: scale(2);
+    }
+    20% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .foot {
+    min-height: 20vh;
+    width: 28.3vw;
+    font-size: unset;
+  }
+  footer div div span {
+    font-size: 3vw;
+  }
+}
+@media screen and (min-width: 901px) {
+  div h3 {
+    font-size: 20px;
+  }
+  .basetwo {
+    height: 50px;
+  }
+  .bar {
+    display: none;
+  }
+  button:hover {
+    transform: scale(2);
+  }
+  .hidden-img {
+    display: none;
+  }
+  .foot{
+    max-height: 27vh;
+  }
+}

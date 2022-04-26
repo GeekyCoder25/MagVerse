@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MagVerse</title>
+    <link rel="icon" href="./img/profile.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js">
+    </script>
+</head>
+
+<body>
+    <div id="main">
+        <nav class="navbar">
+            <h1>Mag<span style="color:#f37b09">Verse</span></h1>
+            <div id="links">
+                <a href="#" class="active">Home</a>
+                <a href="./featues.html">Features</a>
+                <a href="./works.html">How it works</a>
+                <a href="./FAQs.html">FAQs</a>
+            </div>
+            <input type="search" name="search" id="search" placeholder="Search Our Knowledge Base">
+            <button type="submit" id="button">SIGN UP</button>
+            <div class="bar">
+                <a href="javascript:void(0)" onclick="pressSearch()">
+                    <img src="./img/search.svg" alt="Search" id="serchimg" style="width: 28px;" />
+                </a>
+                <a href="javascript:void(0)" onclick="pressMenu()">
+                    <img src="./img/hamburger.svg" alt="Menu" id="menu" />
+                </a>
+            </div>
+        </nav>
+        <div class="row">
+            <article id="column1">
+                <h1>METAVERSE</h1>
+                <h2>next future <span style="color:#f37b09">technolgy</span></h2>
+                <p class="text">It's time to move on to a more advanced step by living life as normal in virtual
+                    reality.
+                </p>
+                <img src="./img/profile.png" alt="profile" class="hidden-img">
+                <form action="./FAQs.html">
+                    <button>find events</button>
+                </form>
+                <div id="base">
+                    <div class="baseone">
+                        <h3>1.2M+</h3>
+                        <p>Satisfied Players</p>
+                    </div>
+                    <div class="basetwo"></div>
+                    <div class="basethree">
+                        <h3>180k+</h3>
+                        <p>Games Provided</p>
+                    </div>
+                </div>
+            </article>
+            <div id="column2"><img src="./img/profile.png" alt="profile"></div>
+            <div id="column3">
+                <form action="./FAQs.html">
+                    <button type="submit"><span style="font-weight:800;
+            font-size: 1.25rem;">256.658+</span> <br /><span style="font-size: 15px; font-weight: 100;">Professional
+                            Players</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="fone" class="foot">
+            <div><img src="./img/icon1.jpg" alt="Interoperability" /><br>
+                <span>Interoperability
+                </span><br><br>
+                Allowing anyone to build smart contracts and deploy them to the metaverse chain
+            </div>
+        </div>
+        <div id="ftwo" class="foot">
+            <div><img src="./img/icon2.jpg" alt="security" /><br>
+                <span>
+                    Security
+                </span><br><br> Proof of work (POW) to dedicate authoring and Grandpa Finality
+            </div>
+        </div>
+        <div id="fthree" class="foot">
+            <div><img src="./img/icon3.jpg" alt="stability" /><br>
+                <span>
+                    Stability
+                </span><br><br> Metaverse utilize the substrate modular framework for higher stability
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
