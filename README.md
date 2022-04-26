@@ -1,3 +1,3 @@
 # MagVerse
 First realese
-This is just for learning no vbig deal about it
+This is just for learning no big deal about it
