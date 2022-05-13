@@ -41,6 +41,7 @@ nav a img {
   margin-right: 5px;
   border-radius: 8px;
   border: #aa0ff9;
+  padding-left: 20px;
 }
 #links a:hover {
   transform: scale(2);
@@ -327,6 +328,12 @@ a {
     top: 100px;
     right: 150px;
   }
+  .bar {
+    margin-left: 10%;
+  }
+  #menu {
+    display: none;
+  }
   footer {
     margin: 10vh 4vw 0 8vw;
     padding-bottom: 20px;
@@ -336,15 +343,12 @@ a {
     bottom: 0;
     max-width: 95vw;
   }
-  .bar {
-    margin-left: 10%;
-  }
-  #menu {
-    display: none;
-  }
   #footer div {
     content: " ";
-    display: table;
+    display: flex;
     clear: both;
+  }
+  #footer div a {
+    margin-left: auto;
   }
 }

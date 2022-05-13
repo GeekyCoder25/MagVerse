@@ -7,7 +7,6 @@ body {
   background: linear-gradient(to top right, #110124, #160041, #0c0241);
   height: 100%;
   min-height: 100vh;
-  max-height: 200vh;
   width: 85vw;
   margin: 0 auto;
   color: #fff;
@@ -36,6 +35,7 @@ body {
   margin-right: 5px;
   border-radius: 8px;
   border: #aa0ff9;
+  padding-left: 20px;
 }
 .navbar #links a {
   text-decoration: none;
@@ -173,35 +173,25 @@ div h3 {
   margin: auto 2vw;
 }
 footer {
-  /* position: absolute; */
-  /* background-color: red; */
-  display: block;
-  max-width: 85vw;
-  max-height: 100px;
+  display: flex;
 }
 #fone {
   background-color: #5451fa;
   border-top-left-radius: 10px;
-  padding-bottom: 3.5%;
 }
 #ftwo {
   background-color: #ee800c;
-  padding-bottom: 4%;
 }
 #fthree {
   background-color: #b106f8;
   border-top-right-radius: 10px;
-  padding-bottom: 4%;
 }
 .foot {
   word-wrap: break-word;
-  display: flex;
-  width: 33.33%;
-  float: left;
-  min-height: 20vw;
+  flex: 1;
 }
 footer div div {
-  margin: 15% 5% 0 10%;
+  margin: 15% 5% 15%  10%;
 }
 footer div div img {
   width: 50px;
@@ -325,8 +315,5 @@ footer div div span {
   }
   .hidden-img {
     display: none;
-  }
-  .foot{
-    max-height: 27vh;
   }
 }

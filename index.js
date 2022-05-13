@@ -7,10 +7,10 @@ if (x.style.display === "block") {
 }
 else {
     x.style.display = "block";
-}
+}   
 }
 
-function pressSearch(){
+function pressSearch() {
     var x = document.getElementById('search');
     if (x.style.display === "block") {
         x.style.display = "none";
