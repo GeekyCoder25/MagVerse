@@ -1,6 +1,6 @@
 function pressMenu() {
-    var x = document.getElementById('links');
-    var y = document.getElementById('searchimg');
+    let x = document.getElementById('links');
+    let y = document.getElementById('searchimg');
 
 if (x.style.display === "block") {
     x.style.display = "none";
@@ -11,7 +11,7 @@ else {
 }
 
 function pressSearch() {
-    var x = document.getElementById('search');
+    let x = document.getElementById('search');
     if (x.style.display === "block") {
         x.style.display = "none";
     }
