@@ -3,6 +3,10 @@
   margin: 0;
   text-decoration: none;
 }
+@font-face {
+  font-family: rosemary;
+  src: url(./img/rosemary.ttf);
+}
 body {
   background: linear-gradient(to top right, #110124, #160041, #0c0241);
   height: 100%;
@@ -10,6 +14,7 @@ body {
   width: 85vw;
   margin: 0 auto;
   color: #fff;
+  font-family: rosemary
 }
 #links a {
   display: inline-block;
